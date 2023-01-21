@@ -1,0 +1,42 @@
+Team name: Pandas
+
+Problem statement 1: PS1 - Description - Concrete cracking is a major issue in Bridge Engineering. Detection of cracks facilitates the design, construction and maintenance of bridges effectively.
+
+
+Team leader: SHREE HARI B
+
+mail id: shreeharib@karunya.edu.in
+phno: 6383258871
+
+Institution name: Karunya institute of technology and sciences, coimbatore
+
+
+Model results
+
+1. Model created with Transfer Learning used Vgg19
+
+Classification Report :
+......................
+precision    recall  f1-score   support
+
+           0       0.71      0.92      0.80        13
+           1       0.93      0.74      0.82        19
+
+    accuracy                           0.81        32
+   macro avg       0.82      0.83      0.81        32
+weighted avg       0.84      0.81      0.81        32
+
+
+2. Model created without Transfer learning
+
+
+Classification Report :
+......................
+               precision    recall  f1-score   support
+
+    NEGATIVE       0.92      0.99      0.96       896
+    POSITIVE       0.99      0.92      0.95       904
+
+    accuracy                           0.95      1800
+   macro avg       0.96      0.95      0.95      1800
+weighted avg       0.96      0.95      0.95      1800
